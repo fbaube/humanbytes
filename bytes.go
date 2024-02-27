@@ -31,7 +31,7 @@ type format struct {
 var formatLS = format{
 	base:     1024,
 	logBase:  math.Log(1024),
-	suffixes: []string{"", " K", " M", " G", " T", " P", " E", " Z", " Y"},
+	suffixes: []string{"", "K", "M", "G", "T", "P", "E", "Z", "Y"},
 }
 
 var formatIEC = format{
